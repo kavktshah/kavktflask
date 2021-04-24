@@ -39,5 +39,5 @@ def upload(filename):
     return send_from_directory(app.config['UPLOAD_PATH'], filename)
 
 if __name__=="__main__":
-    app.run(post=3000,debug=True)
+    app.run(port=3000,debug=True)
 
